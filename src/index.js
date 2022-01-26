@@ -1,11 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-function HelloWorld() {
-  return (
-    <p>Hello World!</p>
-  )
-}
+import HelloWorld from "./components/HelloWorld";
 
 ReactDOM.render(
   <HelloWorld />
