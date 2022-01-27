@@ -4,7 +4,7 @@ import './Calendario.css';
 function Calendario() {
     return (
       <div className="calendario">
-        <p>Nosso Calendario</p>
+        <p >Nosso Calendario</p>
         <Mes mes="Janeiro" ano="2022" />
       </div>
     )
