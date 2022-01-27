@@ -5,13 +5,13 @@ function Mes({mes,ano}) {
       <div>
         <p>{mes}/{ano}</p>
         <div>
-          <button>Dom</button>
-          <button>Seg</button>
-          <button>Ter</button>
-          <button>Qua</button>
-          <button>Qui</button>
-          <button>Sex</button>
-          <button>Sab</button>
+          <button className="dia">Dom</button>
+          <button className="dia">Seg</button>
+          <button className="dia">Ter</button>
+          <button className="dia">Qua</button>
+          <button className="dia">Qui</button>
+          <button className="dia">Sex</button>
+          <button className="dia">Sab</button>
         </div>
         <Semana diaInicial={-5} />
         <Semana diaInicial={2}/>

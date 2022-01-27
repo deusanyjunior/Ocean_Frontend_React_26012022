@@ -1,5 +1,3 @@
-import './Dia.css'
-
 function Dia({data}) {
     return (
       <button className="dia">
