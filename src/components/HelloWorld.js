@@ -1,4 +1,4 @@
-function HelloWorld( {nome, sobrenome} ) {
+function HelloWorld( {nome="-", sobrenome="-"} ) {
     return (
       <p>Hello World! by {nome} {sobrenome}</p>
     )
