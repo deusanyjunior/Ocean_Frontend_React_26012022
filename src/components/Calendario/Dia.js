@@ -1,6 +1,8 @@
+import './Dia.css'
+
 function Dia({data}) {
     return (
-      <button>
+      <button className="dia">
         {
           (data > 0 && data < 32 ? data : '-')
         }
